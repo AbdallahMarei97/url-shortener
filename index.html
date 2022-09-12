@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortly</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="burgerMenu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li>
+                        Features
+                    </li>
+                    <li>
+                        Pricing
+                    </li>
+                    <li>
+                        Resources
+                    </li>
+                    <hr>
+                    <li>
+                        Login
+                    </li>
+                    <li class="sign-up-btn">
+                        Sign Up
+                    </li>
+                </ul>
+            </div>
+            <div class="left-nav">
+                <div class="logo">
+                    Shortly
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        Features
+                    </li>
+                    <li>
+                        Pricing
+                    </li>
+                    <li>
+                        Resources
+                    </li>
+                </ul>
+            </div>
+            <div class="right-nav">
+                <ul class="nav-links">
+                    <li>
+                        Login
+                    </li>
+                    <li>
+                        <button class="sign-up-btn">
+                            Sign Up
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="left-hero">
+                <h1 class="left-hero-heading1">More than just shorter links</h1>
+                <h5 class="left-hero-heading5">Build your brand’s recognition and get detailed insights
+                    on how your links are performing.</h5>
+                <div class="get-started"><button class="get-started-button">Get Started</button></div>
+            </div>
+            <div class="right-hero">
+                <img class="right-hero-image" src="images/illustration-working.svg" alt="hero" />
+            </div>
+        </section>
+
+        <section class="main-page">
+            <div class="shorten">
+                <div class="shorten-link-div">
+                    <form id="shortener-form">
+                        <input class="input-link" required type="text" placeholder="Shorten a link here">
+                        <span class="show-url-error-mobile"></span>
+                        <button type="submit" class="shorten-link-btn">Shorten it!</button>
+                        <span class="show-url-error"></span>
+                    </form>
+                </div>
+                <div id="show-links"></div>
+            </div>
+
+            <div class="adv-stat">
+                <h2 class="adv-stat-heading2">Advanced Statistics</h2>
+                <p class="adv-stat-paragraph">Track how your links are performing across the web with our
+                    advanced statistics dashboard.</p>
+            </div>
+            <div class="cards">
+                <div class="blue-line"></div>
+                <div class="card-stat">
+                    <div class="abs-div">
+                        <div class="image-div">
+                            <img src="images/icon-brand-recognition.svg" alt="brand recognition">
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Brand Recognition</h3>
+                        <p>Boost your brand recognition with each click. Generic links don’t
+                            mean a thing. Branded links help instil confidence in your content.</p>
+                    </div>
+                </div>
+                <div class="card-stat second-card">
+                    <div class="abs-div">
+                        <div class="image-div">
+                            <img src="images/icon-detailed-records.svg" alt="detailed recognition">
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Detailed Records</h3>
+                        <p>Gain insights into who is clicking your links. Knowing when and where
+                            people engage with your content helps inform better decisions.</p>
+                    </div>
+                </div>
+                <div class="card-stat third-card">
+                    <div class="abs-div">
+                        <div class="image-div">
+                            <img src="images/icon-fully-customizable.svg" alt="fully customizable">
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Fully Customizable</h3>
+                        <p>Improve brand awareness and content discoverability through customizable
+                            links, supercharging audience engagement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="boost">
+            <h2 class="boost-heading2">Boost your links today</h2>
+            <div class="get-started"><button class="boost-btn">Get Started</button></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-comp">
+            <div class="logo footer-logo">
+                Shortly
+            </div>
+            <div class="footer-lists">
+                <ul>
+                    <p>Features</p>
+                    <li>Link Shortening</li>
+                    <li>Branded Links</li>
+                    <li>Analytics</li>
+                </ul>
+                <ul>
+                    <p>Resources</p>
+                    <li>Blog</li>
+                    <li>Developers</li>
+                    <li>Support</li>
+                </ul>
+                <ul>
+                    <p>Company</p>
+                    <li>About</li>
+                    <li>Our Team</li>
+                    <li>Careers</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i style="padding-left: 0;" class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
